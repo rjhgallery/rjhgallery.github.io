@@ -1,0 +1,35 @@
+html,
+
+body {
+    height: 100%;
+    /* The image used */
+    background-image: url("mission.jpg");
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+  width: 100%;
+  text-align: center;
+}
+
+a { 
+  color: white;
+  padding: 28px 50px;
+  background: rgba(235, 240, 255, 0.3);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-style: solid;
+  border-width: medium;
+  border-color: white;
+  margin-top: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a :hover {
+  background: rgba(235, 240, 255, 0.9);
+}
